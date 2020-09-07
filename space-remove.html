@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Hi
+<script>
+    function noSpace(x) {
+        return x.split(" ").join("");
+    }
+
+    /*Best practice
+    * function noSpace(x)
+    *    {return x.replace(/\s/g, '');
+    * }*/
+
+    console.log(noSpace("   Hello Str ing "));
+
+</script>
+</body>
+</html>
